@@ -4,7 +4,7 @@ public class App {
         Feriados listaFeriados = new Feriados();
         listaFeriados.addListaFeriados();
 
-        System.out.println(listaFeriados.listaTodosFeriados());
+        listaFeriados.listaTodosFeriados();
 
         System.out.println(listaFeriados.existeFeriado("08/06/2023"));
     }

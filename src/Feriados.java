@@ -26,8 +26,9 @@ public class Feriados {
     this.feriados.put("25/12/2023", "Natal");
   }
 
-  Object listaTodosFeriados() {
-    return this.feriados;
+  void listaTodosFeriados() {
+    feriados
+        .forEach((key, value) -> System.out.println(String.format("Data: %s corresponde ao feriado: %s", key, value)));
   }
 
 }
